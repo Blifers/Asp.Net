@@ -11,7 +11,7 @@ namespace Asp.Net
 {
 
 
-    public partial class FirstTask
+    public partial class SecondTask
     {
 
         /// <summary>
@@ -24,40 +24,49 @@ namespace Asp.Net
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// HeaderGridView элемент управления.
+        /// ChequeLabel элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView HeaderGridView;
+        protected global::System.Web.UI.WebControls.Label ChequeLabel;
 
         /// <summary>
-        /// HeaderDataSource элемент управления.
+        /// ChequeNumberLabel элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource HeaderDataSource;
+        protected global::System.Web.UI.WebControls.Label ChequeNumberLabel;
 
         /// <summary>
-        /// BodyDataSource элемент управления.
+        /// DateLabel элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource BodyDataSource;
+        protected global::System.Web.UI.WebControls.Label DateLabel;
 
         /// <summary>
-        /// AddToHeadButton элемент управления.
+        /// DiscountCardLabel элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button AddToHeadButton;
+        protected global::System.Web.UI.WebControls.Label DiscountCardLabel;
+
+        /// <summary>
+        /// ChequeSumLabel элемент управления.
+        /// </summary>
+        /// <remarks>
+        /// Автоматически создаваемое поле.
+        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label ChequeSumLabel;
 
         /// <summary>
         /// BodyGridView элемент управления.
@@ -69,48 +78,21 @@ namespace Asp.Net
         protected global::System.Web.UI.WebControls.GridView BodyGridView;
 
         /// <summary>
-        /// TextBox1 элемент управления.
+        /// SqlDataSource1 элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource1;
 
         /// <summary>
-        /// TextBox2 элемент управления.
+        /// BackLinkButton элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox2;
-
-        /// <summary>
-        /// AddRecordToTableButton элемент управления.
-        /// </summary>
-        /// <remarks>
-        /// Автоматически создаваемое поле.
-        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button AddRecordToTableButton;
-
-        /// <summary>
-        /// TakeALookButton элемент управления.
-        /// </summary>
-        /// <remarks>
-        /// Автоматически создаваемое поле.
-        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button TakeALookButton;
-
-        /// <summary>
-        /// LinkButton1 элемент управления.
-        /// </summary>
-        /// <remarks>
-        /// Автоматически создаваемое поле.
-        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton LinkButton1;
+        protected global::System.Web.UI.WebControls.LinkButton BackLinkButton;
     }
 }

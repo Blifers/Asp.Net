@@ -107,6 +107,7 @@
   <ItemGroup>
     <Content Include="Default.aspx" />
     <Content Include="FirstTask.aspx" />
+    <Content Include="SecondTask.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -125,6 +126,13 @@
       <DependentUpon>FirstTask.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SecondTask.aspx.cs">
+      <DependentUpon>SecondTask.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SecondTask.aspx.designer.cs">
+      <DependentUpon>SecondTask.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

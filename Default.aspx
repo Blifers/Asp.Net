@@ -6,18 +6,24 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
+    <style type="text/css">
+        .auto-style1 {
+            font-size: xx-large;
+        }
+        .auto-style2 {
+            font-size: x-large;
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
         <div>
 
 
-            Задания:<br />
+            <span class="auto-style1">Задания:</span><br />
             <br />
-            <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">Номер 1</asp:LinkButton>
+            <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click" CssClass="auto-style2">Просмотр документов</asp:LinkButton>
             <br />
-            <br />
-            <asp:LinkButton ID="LinkButton2" runat="server">Номер 2</asp:LinkButton>
 
 
         </div>

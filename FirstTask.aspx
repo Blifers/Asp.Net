@@ -84,6 +84,9 @@
                 <asp:Parameter Name="original_Количество" Type="Int32" />
             </UpdateParameters>
         </asp:SqlDataSource>
+        <br />
+        <asp:Button ID="AddToHeadButton" runat="server" OnClick="AddToHeadButton_Click" Text="Добавить запись в шапку" />
+        <br />
         <br class="auto-style2" />
         <span class="auto-style2">Табличная часть</span><br />
         <br />
@@ -103,6 +106,20 @@
             <SortedDescendingCellStyle BackColor="#CAC9C9" />
             <SortedDescendingHeaderStyle BackColor="#383838" />
         </asp:GridView>
+        <br />
+        Код товара&nbsp;&nbsp;&nbsp; <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+        <br />
+        <br />
+        Количество&nbsp;&nbsp; <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+        <br />
+        <br />
+        <br />
+        <asp:Button ID="AddRecordToTableButton" runat="server" OnClick="AddRecordToTableButton_Click" Text="Добавить запись в табличную часть" />
+        <br />
+        <br />
+        <br />
+        <asp:Button ID="TakeALookButton" runat="server" OnClick="TakeALookButton_Click" Text="Посмотреть выбранный документ" />
+        <br />
         <br />
         <br />
         <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">Вернуться на главную</asp:LinkButton>
